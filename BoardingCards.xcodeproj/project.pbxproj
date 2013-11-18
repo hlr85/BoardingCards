@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE4D010C174AA05D006F0235 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4D010B174AA05D006F0235 /* UIKit.framework */; };
+		DE4D010E174AA05D006F0235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4D010D174AA05D006F0235 /* Foundation.framework */; };
+		DE4D0110174AA05D006F0235 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4D010F174AA05D006F0235 /* CoreGraphics.framework */; };
+		DE4D0116174AA05D006F0235 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE4D0114174AA05D006F0235 /* InfoPlist.strings */; };
+		DE4D0118174AA05D006F0235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4D0117174AA05D006F0235 /* main.m */; };
+		DE4D011C174AA05D006F0235 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4D011B174AA05D006F0235 /* AppDelegate.m */; };
+		DE4D011E174AA05D006F0235 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4D011D174AA05D006F0235 /* Default.png */; };
+		DE4D0120174AA05D006F0235 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4D011F174AA05D006F0235 /* Default@2x.png */; };
+		DE4D0122174AA05D006F0235 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4D0121174AA05D006F0235 /* Default-568h@2x.png */; };
+		DE4D0130174AA05D006F0235 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4D012F174AA05D006F0235 /* SenTestingKit.framework */; };
+		DE4D0131174AA05D006F0235 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4D010B174AA05D006F0235 /* UIKit.framework */; };
+		DE4D0132174AA05D006F0235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4D010D174AA05D006F0235 /* Foundation.framework */; };
+		DE4D013A174AA05D006F0235 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE4D0138174AA05D006F0235 /* InfoPlist.strings */; };
+		DE4D013D174AA05D006F0235 /* BoardingCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4D013C174AA05D006F0235 /* BoardingCardsTests.m */; };
+		DE4D0152174AA3A9006F0235 /* AGBoardingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4D0151174AA3A9006F0235 /* AGBoardingCard.m */; };
+		DE4D0158174AA647006F0235 /* AGBoardingCardsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4D0156174AA647006F0235 /* AGBoardingCardsVC.m */; };
+		DE4D0159174AA647006F0235 /* AGBoardingCardsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4D0157174AA647006F0235 /* AGBoardingCardsVC.xib */; };
+		DE4D015D174AA7CE006F0235 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4D015C174AA7CE006F0235 /* MBProgressHUD.m */; };
+		DE4D0164174AB249006F0235 /* AGGenericTransportation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4D0163174AB249006F0235 /* AGGenericTransportation.m */; };
+		DE4D0168174AB29F006F0235 /* AGPlaneTransportation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4D0167174AB29F006F0235 /* AGPlaneTransportation.m */; };
+		DE4D016B174AB476006F0235 /* AGTrainTransporatation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4D016A174AB476006F0235 /* AGTrainTransporatation.m */; };
+		DE5D126D174AC9650028A76D /* AGSortedResultsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5D126B174AC9650028A76D /* AGSortedResultsVC.m */; };
+		DE5D126E174AC9650028A76D /* AGSortedResultsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5D126C174AC9650028A76D /* AGSortedResultsVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE4D0133174AA05D006F0235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE4D0100174AA05D006F0235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE4D0107174AA05D006F0235;
+			remoteInfo = BoardingCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE4D0108174AA05D006F0235 /* BoardingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoardingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4D010B174AA05D006F0235 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE4D010D174AA05D006F0235 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE4D010F174AA05D006F0235 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE4D0113174AA05D006F0235 /* BoardingCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoardingCards-Info.plist"; sourceTree = "<group>"; };
+		DE4D0115174AA05D006F0235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE4D0117174AA05D006F0235 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE4D0119174AA05D006F0235 /* BoardingCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BoardingCards-Prefix.pch"; sourceTree = "<group>"; };
+		DE4D011A174AA05D006F0235 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE4D011B174AA05D006F0235 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE4D011D174AA05D006F0235 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE4D011F174AA05D006F0235 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE4D0121174AA05D006F0235 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE4D012E174AA05D006F0235 /* BoardingCardsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardingCardsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4D012F174AA05D006F0235 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DE4D0137174AA05D006F0235 /* BoardingCardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoardingCardsTests-Info.plist"; sourceTree = "<group>"; };
+		DE4D0139174AA05D006F0235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE4D013B174AA05D006F0235 /* BoardingCardsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardingCardsTests.h; sourceTree = "<group>"; };
+		DE4D013C174AA05D006F0235 /* BoardingCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoardingCardsTests.m; sourceTree = "<group>"; };
+		DE4D0150174AA3A9006F0235 /* AGBoardingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGBoardingCard.h; sourceTree = "<group>"; };
+		DE4D0151174AA3A9006F0235 /* AGBoardingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGBoardingCard.m; sourceTree = "<group>"; };
+		DE4D0155174AA647006F0235 /* AGBoardingCardsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGBoardingCardsVC.h; sourceTree = "<group>"; };
+		DE4D0156174AA647006F0235 /* AGBoardingCardsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGBoardingCardsVC.m; sourceTree = "<group>"; };
+		DE4D0157174AA647006F0235 /* AGBoardingCardsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGBoardingCardsVC.xib; sourceTree = "<group>"; };
+		DE4D015B174AA7CE006F0235 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DE4D015C174AA7CE006F0235 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DE4D015F174AA89A006F0235 /* AGConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGConstants.h; sourceTree = "<group>"; };
+		DE4D0162174AB249006F0235 /* AGGenericTransportation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGGenericTransportation.h; sourceTree = "<group>"; };
+		DE4D0163174AB249006F0235 /* AGGenericTransportation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGGenericTransportation.m; sourceTree = "<group>"; };
+		DE4D0166174AB29F006F0235 /* AGPlaneTransportation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPlaneTransportation.h; sourceTree = "<group>"; };
+		DE4D0167174AB29F006F0235 /* AGPlaneTransportation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPlaneTransportation.m; sourceTree = "<group>"; };
+		DE4D0169174AB476006F0235 /* AGTrainTransporatation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTrainTransporatation.h; sourceTree = "<group>"; };
+		DE4D016A174AB476006F0235 /* AGTrainTransporatation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTrainTransporatation.m; sourceTree = "<group>"; };
+		DE5D126A174AC9650028A76D /* AGSortedResultsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSortedResultsVC.h; sourceTree = "<group>"; };
+		DE5D126B174AC9650028A76D /* AGSortedResultsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSortedResultsVC.m; sourceTree = "<group>"; };
+		DE5D126C174AC9650028A76D /* AGSortedResultsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGSortedResultsVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE4D0105174AA05D006F0235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4D010C174AA05D006F0235 /* UIKit.framework in Frameworks */,
+				DE4D010E174AA05D006F0235 /* Foundation.framework in Frameworks */,
+				DE4D0110174AA05D006F0235 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4D012A174AA05D006F0235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4D0130174AA05D006F0235 /* SenTestingKit.framework in Frameworks */,
+				DE4D0131174AA05D006F0235 /* UIKit.framework in Frameworks */,
+				DE4D0132174AA05D006F0235 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE4D00FF174AA05D006F0235 = {
+			isa = PBXGroup;
+			children = (
+				DE4D0111174AA05D006F0235 /* BoardingCards */,
+				DE4D0135174AA05D006F0235 /* BoardingCardsTests */,
+				DE4D010A174AA05D006F0235 /* Frameworks */,
+				DE4D0109174AA05D006F0235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE4D0109174AA05D006F0235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D0108174AA05D006F0235 /* BoardingCards.app */,
+				DE4D012E174AA05D006F0235 /* BoardingCardsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE4D010A174AA05D006F0235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D010B174AA05D006F0235 /* UIKit.framework */,
+				DE4D010D174AA05D006F0235 /* Foundation.framework */,
+				DE4D010F174AA05D006F0235 /* CoreGraphics.framework */,
+				DE4D012F174AA05D006F0235 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE4D0111174AA05D006F0235 /* BoardingCards */ = {
+			isa = PBXGroup;
+			children = (
+				DEFF1CF6174CAC0300E4B118 /* Algorithm */,
+				DE4D0146174AA0FA006F0235 /* Model */,
+				DE4D0154174AA5F2006F0235 /* Controller */,
+				DE4D0153174AA5E8006F0235 /* View */,
+				DE4D011A174AA05D006F0235 /* AppDelegate.h */,
+				DE4D011B174AA05D006F0235 /* AppDelegate.m */,
+				DE4D015A174AA7B2006F0235 /* Vendors */,
+				DE4D0112174AA05D006F0235 /* Supporting Files */,
+			);
+			path = BoardingCards;
+			sourceTree = "<group>";
+		};
+		DE4D0112174AA05D006F0235 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D015F174AA89A006F0235 /* AGConstants.h */,
+				DE4D0113174AA05D006F0235 /* BoardingCards-Info.plist */,
+				DE4D0114174AA05D006F0235 /* InfoPlist.strings */,
+				DE4D0117174AA05D006F0235 /* main.m */,
+				DE4D0119174AA05D006F0235 /* BoardingCards-Prefix.pch */,
+				DE4D011D174AA05D006F0235 /* Default.png */,
+				DE4D011F174AA05D006F0235 /* Default@2x.png */,
+				DE4D0121174AA05D006F0235 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE4D0135174AA05D006F0235 /* BoardingCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D013B174AA05D006F0235 /* BoardingCardsTests.h */,
+				DE4D013C174AA05D006F0235 /* BoardingCardsTests.m */,
+				DE4D0136174AA05D006F0235 /* Supporting Files */,
+			);
+			path = BoardingCardsTests;
+			sourceTree = "<group>";
+		};
+		DE4D0136174AA05D006F0235 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D0137174AA05D006F0235 /* BoardingCardsTests-Info.plist */,
+				DE4D0138174AA05D006F0235 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE4D0146174AA0FA006F0235 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D0150174AA3A9006F0235 /* AGBoardingCard.h */,
+				DE4D0151174AA3A9006F0235 /* AGBoardingCard.m */,
+				DE4D0165174AB270006F0235 /* Transportation */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DE4D0153174AA5E8006F0235 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D0157174AA647006F0235 /* AGBoardingCardsVC.xib */,
+				DE5D126C174AC9650028A76D /* AGSortedResultsVC.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DE4D0154174AA5F2006F0235 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D0155174AA647006F0235 /* AGBoardingCardsVC.h */,
+				DE4D0156174AA647006F0235 /* AGBoardingCardsVC.m */,
+				DE5D126A174AC9650028A76D /* AGSortedResultsVC.h */,
+				DE5D126B174AC9650028A76D /* AGSortedResultsVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DE4D015A174AA7B2006F0235 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D015E174AA7D2006F0235 /* MBProgressHUD */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		DE4D015E174AA7D2006F0235 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D015B174AA7CE006F0235 /* MBProgressHUD.h */,
+				DE4D015C174AA7CE006F0235 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DE4D0165174AB270006F0235 /* Transportation */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D0162174AB249006F0235 /* AGGenericTransportation.h */,
+				DE4D0163174AB249006F0235 /* AGGenericTransportation.m */,
+				DE4D0166174AB29F006F0235 /* AGPlaneTransportation.h */,
+				DE4D0167174AB29F006F0235 /* AGPlaneTransportation.m */,
+				DE4D0169174AB476006F0235 /* AGTrainTransporatation.h */,
+				DE4D016A174AB476006F0235 /* AGTrainTransporatation.m */,
+			);
+			name = Transportation;
+			sourceTree = "<group>";
+		};
+		DEFF1CF6174CAC0300E4B118 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Algorithm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE4D0107174AA05D006F0235 /* BoardingCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4D0140174AA05D006F0235 /* Build configuration list for PBXNativeTarget "BoardingCards" */;
+			buildPhases = (
+				DE4D0104174AA05D006F0235 /* Sources */,
+				DE4D0105174AA05D006F0235 /* Frameworks */,
+				DE4D0106174AA05D006F0235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoardingCards;
+			productName = BoardingCards;
+			productReference = DE4D0108174AA05D006F0235 /* BoardingCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE4D012D174AA05D006F0235 /* BoardingCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4D0143174AA05D006F0235 /* Build configuration list for PBXNativeTarget "BoardingCardsTests" */;
+			buildPhases = (
+				DE4D0129174AA05D006F0235 /* Sources */,
+				DE4D012A174AA05D006F0235 /* Frameworks */,
+				DE4D012B174AA05D006F0235 /* Resources */,
+				DE4D012C174AA05D006F0235 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE4D0134174AA05D006F0235 /* PBXTargetDependency */,
+			);
+			name = BoardingCardsTests;
+			productName = BoardingCardsTests;
+			productReference = DE4D012E174AA05D006F0235 /* BoardingCardsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE4D0100174AA05D006F0235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andrea Giavatto";
+			};
+			buildConfigurationList = DE4D0103174AA05D006F0235 /* Build configuration list for PBXProject "BoardingCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE4D00FF174AA05D006F0235;
+			productRefGroup = DE4D0109174AA05D006F0235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE4D0107174AA05D006F0235 /* BoardingCards */,
+				DE4D012D174AA05D006F0235 /* BoardingCardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE4D0106174AA05D006F0235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4D0116174AA05D006F0235 /* InfoPlist.strings in Resources */,
+				DE4D011E174AA05D006F0235 /* Default.png in Resources */,
+				DE4D0120174AA05D006F0235 /* Default@2x.png in Resources */,
+				DE4D0122174AA05D006F0235 /* Default-568h@2x.png in Resources */,
+				DE4D0159174AA647006F0235 /* AGBoardingCardsVC.xib in Resources */,
+				DE5D126E174AC9650028A76D /* AGSortedResultsVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4D012B174AA05D006F0235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4D013A174AA05D006F0235 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE4D012C174AA05D006F0235 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE4D0104174AA05D006F0235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4D0118174AA05D006F0235 /* main.m in Sources */,
+				DE4D011C174AA05D006F0235 /* AppDelegate.m in Sources */,
+				DE4D0152174AA3A9006F0235 /* AGBoardingCard.m in Sources */,
+				DE4D0158174AA647006F0235 /* AGBoardingCardsVC.m in Sources */,
+				DE4D015D174AA7CE006F0235 /* MBProgressHUD.m in Sources */,
+				DE4D0164174AB249006F0235 /* AGGenericTransportation.m in Sources */,
+				DE4D0168174AB29F006F0235 /* AGPlaneTransportation.m in Sources */,
+				DE4D016B174AB476006F0235 /* AGTrainTransporatation.m in Sources */,
+				DE5D126D174AC9650028A76D /* AGSortedResultsVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4D0129174AA05D006F0235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4D013D174AA05D006F0235 /* BoardingCardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE4D0134174AA05D006F0235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE4D0107174AA05D006F0235 /* BoardingCards */;
+			targetProxy = DE4D0133174AA05D006F0235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE4D0114174AA05D006F0235 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE4D0115174AA05D006F0235 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE4D0138174AA05D006F0235 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE4D0139174AA05D006F0235 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE4D013E174AA05D006F0235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE4D013F174AA05D006F0235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE4D0141174AA05D006F0235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoardingCards/BoardingCards-Prefix.pch";
+				INFOPLIST_FILE = "BoardingCards/BoardingCards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE4D0142174AA05D006F0235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoardingCards/BoardingCards-Prefix.pch";
+				INFOPLIST_FILE = "BoardingCards/BoardingCards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DE4D0144174AA05D006F0235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BoardingCards.app/BoardingCards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoardingCards/BoardingCards-Prefix.pch";
+				INFOPLIST_FILE = "BoardingCardsTests/BoardingCardsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DE4D0145174AA05D006F0235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BoardingCards.app/BoardingCards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoardingCards/BoardingCards-Prefix.pch";
+				INFOPLIST_FILE = "BoardingCardsTests/BoardingCardsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE4D0103174AA05D006F0235 /* Build configuration list for PBXProject "BoardingCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4D013E174AA05D006F0235 /* Debug */,
+				DE4D013F174AA05D006F0235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4D0140174AA05D006F0235 /* Build configuration list for PBXNativeTarget "BoardingCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4D0141174AA05D006F0235 /* Debug */,
+				DE4D0142174AA05D006F0235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4D0143174AA05D006F0235 /* Build configuration list for PBXNativeTarget "BoardingCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4D0144174AA05D006F0235 /* Debug */,
+				DE4D0145174AA05D006F0235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE4D0100174AA05D006F0235 /* Project object */;
+}
