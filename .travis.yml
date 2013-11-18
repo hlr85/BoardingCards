@@ -1,2 +1,2 @@
 language: objective-c
-script: xcodebuild -project {project}.xcodeproj -target {target} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script: xcodebuild -project BoardingCards.xcodeproj -target BoardingCards -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
